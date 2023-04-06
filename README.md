@@ -1,6 +1,10 @@
 # ec2-chatbot
 
 
+Creating a serverless chatbot for managing EC2 instances with OpenAI's ChatGPT(API), AWS Lambda, and a Chrome extension. We are using OpenAI's powerful ChatGPT language model to understand and generate responses to user requests, AWS Lambda to create a serverless function that can execute code on demand, and a Chrome extension to provide a user-friendly interface for interacting with the chatbot.
+
+We'll have a fully functional chatbot that can list, start, and stop EC2 instances, will also provide answers to the question asked by user
+
 ## Installation
 1. Clone the repository
 
