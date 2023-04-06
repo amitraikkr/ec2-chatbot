@@ -1,0 +1,44 @@
+/* Apply default styles to body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e9f1f3;
+    margin: 0;
+    padding: 0;
+}
+
+/* Style container for chatbot */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+/* Style heading for chatbot */
+h1 {
+    text-align: center;
+}
+
+/* Style label for input field */
+label {
+    display: block;
+    margin-top: 1rem;
+}
+
+/* Style input field for chatbot */
+textarea {
+    width: 100%;
+    resize: none;
+}
+
+/* Style chat messages */
+.chat-message {
+    /* Allow word wrap in messages */
+    white-space: pre-wrap;
+    word-wrap: break-word;
+}
+
+/* Add line breaks after messages */
+.chat-message::after {
+    content: "\a";
+    white-space: pre;
+}
